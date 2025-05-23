@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"content="with=device-with, initial-scale=1.0">
+    <title align="centre"> Formulaire D'inscription </title>
+</head>
+<body>
+    <h2> Formulaire D'Inscription :</h2>
+    <form >
+        <label for="prenom">prenom :</label><br>
+        <input type="text" id="prenom" name="prenom" required><br>
+        <label for="nom">Nom :</label><br>
+        <input type="text" id="nom" name="nom" required><br>
+        <label for="group">group :</label><br>
+        <input type="number" min="1" max="4" value="1"><br>
+        <label for="sujet">sujet :</label><br>
+        <input type="text" id="sujet" name="sujet" required><br>
+        <label for="description" >description :</label><br>
+        <textarea id="description" name="description" rows="4"  required></textarea><br>
+        <label for="dateDebut" >date de debut :</label><br>
+        <input type="date" id="dateDebut" name="dateDebut"required><br>
+        <label for="dateFin" >date de fin :</label><br>
+        <input type="date" id="dateFin" name="dateFin" required><br>  
+        <label for="encadrement" >Encadrement :</label><br>
+        <select id="encadrement" name="encadrement" >
+            <option value="">--Selectionner un professeur :</option>
+            <option value="prof 1">prof 1</option>
+            <option value="prof 2">prof 2</option>
+            <option value="prof 3">prof 3</option>
+        </select>
+        <br>
+        <br>
+        <button type="submit" class="submit-btn">Envoyer</button>
+        <button type="reset" class="cancel-btn">Annuler</button>
+    </form>
+    
+</body>
+</html>
