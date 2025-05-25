@@ -1,0 +1,12 @@
+var nombre1 = prompt("Entrez le premier nombre :");
+var nombre2 = prompt("Entrez le deuxième nombre :");
+nombre1 = parseFloat(nombre1);
+nombre2 = parseFloat(nombre2);
+var somme = nombre1 + nombre2;
+var difference = nombre1 - nombre2;
+var produit = nombre1 * nombre2;
+var quotient = nombre1 / nombre2;
+console.log("La somme est : " + somme);
+console.log("La différence est : " + difference);
+console.log("Le produit est : " + produit);
+console.log("Le quotient est : " + quotient);
